@@ -3,6 +3,7 @@ import './App.css'
 
 import Form from './components/molecules/Form'
 import Header from './components/organisms/Header'
+import Card from './components/molecules/Card'
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Form />
+        <Card text="Bruna"/>
       </div>
     );
   }
